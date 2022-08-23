@@ -1,0 +1,19 @@
+{
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node -r dotenv/config index.mjs"
+  },
+  "dependencies": {
+    "discord.js": "^14.3.0",
+    "twitter": "^1.7.1",
+    "twitter-api-sdk": "^1.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  },
+  "engines": {
+    "node": ">=16.16^",
+    "npm": ">=8.11^"
+  }
+}
